@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body class="m-5">
+    <div class="d-flex justify-content-center text-center">
+        <div id="calendar_title" class="d-flex justify-content-start align-items-center flex-row flex-nowrap">
+    
+            <div id="calendarprevBtn">
+                <button id="calendar_prevBtn" class="btn text-primary fs-16px">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+            </div>
+    
+            <div id="month_Display" class="mx-2 h1 lh-1 fw-bold text-center text-nowrap" > </div>
+    
+            <div id="calendarnxtBtn">
+                <button id="calendar_nxtBtn" class="btn text-primary fs-16px">
+                    <i class="fa-solid fa-caret-right "></i>
+                </button>
+            </div>
+
+            
+        </div>
+    </div>
+    <div id="weekNum_display" class="mx-2 h1 lh-1 fw-bold text-center text-nowrap" > </div>
+    <div class="my-3 d-flex justify-content-center">
+        <div class="calendar">
+            <div class="calender-header">
+                <div class="week-legend border border-primary p-2 text-danger">
+                    <div class="weekdate">23</div>
+                    <div class="weekday fw-bolder">일</div>
+                </div>
+                <div class="week-legend border border-primary p-2">
+                    <div class="weekdate"></div>
+                    <div class="weekday fw-bolder">월</div>
+                </div>
+                <div class="week-legend border border-primary p-2">
+                    <div class="weekdate"></div>
+                    <div class="weekday fw-bolder">화</div>
+                </div>
+                <div class="week-legend border border-primary p-2">
+                    <div class="weekdate"></div>
+                    <div class="weekday fw-bolder">수</div>
+                </div>
+                <div class="week-legend border border-primary p-2">
+                    <div class="weekdate"></div>
+                    <div class="weekday fw-bolder">목</div>
+                </div>
+                <div class="week-legend border border-primary p-2">
+                    <div class="weekdate"></div>
+                    <div class="weekday fw-bolder">금</div>
+                </div>
+                <div class="week-legend border border-primary p-2">
+                    <div class="weekdate"></div>
+                    <div class="weekday fw-bolder">토</div>
+                </div>
+            </div>
+            <div class="calendar-body">
+                <div class="events border border-primary"></div>
+                <div class="events border border-primary"></div>
+                <div class="events border border-primary"></div>
+                <div class="events border border-primary"></div>
+                <div class="events border border-primary"></div>
+                <div class="events border border-primary"></div>
+                <div class="events border border-primary"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/date.js"></script>
+</body>
+</html>
